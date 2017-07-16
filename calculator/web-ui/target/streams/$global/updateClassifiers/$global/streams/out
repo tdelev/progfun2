@@ -1,0 +1,547 @@
+[warn] Multiple dependencies with the same organization/name but different versions. To avoid conflict, pick one version:
+[warn]  * org.scala-lang:scala-library:(2.11.8, 2.11.6)
+[debug] :: resolving dependencies :: webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, phantom-js-jetty]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile->default(compile)]
+[info] Resolving org.scala-js#scalajs-library_2.11;0.6.13 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76235ae2
+[debug] sbt-chain: module revision found in cache: org.scala-js#scalajs-library_2.11;0.6.13
+[debug] 	found org.scala-js#scalajs-library_2.11;0.6.13 in sbt-chain
+[debug] 	[0.6.13] org.scala-js#scalajs-library_2.11;0.6.13
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.11.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7cc8ebfd
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
+[debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
+[debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->default(compile)]
+[info] Resolving org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33248371
+[debug] sbt-chain: module revision found in cache: org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0
+[debug] 	found org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 in sbt-chain
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->master]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [runtime->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [runtime->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [runtime->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [runtime->master]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [runtime->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [runtime->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [runtime->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [runtime->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [test->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [test->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [test->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [test->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [test->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [test->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [test->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [test->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.13 [test->default(compile)]
+[info] Resolving org.scala-js#scalajs-test-interface_2.11;0.6.13 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24c6cb05
+[debug] sbt-chain: module revision found in cache: org.scala-js#scalajs-test-interface_2.11;0.6.13
+[debug] 	found org.scala-js#scalajs-test-interface_2.11;0.6.13 in sbt-chain
+[debug] 	[0.6.13] org.scala-js#scalajs-test-interface_2.11;0.6.13
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.13 [test->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.13 [test->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.13 [test->master]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->master]
+[debug] == resolving dependencies for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile-internal->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile-internal->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile-internal->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile-internal->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile-internal->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile-internal->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile-internal->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile-internal->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile-internal->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile-internal->master]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [runtime->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [runtime->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [runtime->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [runtime->master]
+[debug] == resolving dependencies for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime-internal->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime-internal->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime-internal->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime-internal->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime-internal->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime-internal->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime-internal->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime-internal->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [runtime-internal->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [runtime-internal->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [runtime-internal->master]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [compile->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [compile->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [runtime->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [runtime->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [runtime->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [runtime->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [runtime->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [runtime->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [test->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [test->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [test->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [test->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [test->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [test->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [test->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [test->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.13 [test->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.13 [test->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.13 [test->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.13 [test->master]
+[debug] == resolving dependencies for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [test-internal->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [test-internal->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [test-internal->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-library_2.11;0.6.13 [test-internal->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test-internal->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test-internal->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test-internal->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.8 [test-internal->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [test-internal->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [test-internal->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [test-internal->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0 [test-internal->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.13 [test-internal->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.13 [test-internal->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.13 [test-internal->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-test-interface_2.11;0.6.13 [test-internal->master]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT [plugin]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-compiler_2.11.6;0.6.13 [plugin->default(compile)]
+[info] Resolving org.scala-js#scalajs-compiler_2.11.6;0.6.13 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-js#scalajs-compiler_2.11.6;0.6.13 {plugin=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-js#scalajs-compiler_2.11.6;0.6.13
+[debug] 	found org.scala-js#scalajs-compiler_2.11.6;0.6.13 in sbt-chain
+[debug] 	[0.6.13] org.scala-js#scalajs-compiler_2.11.6;0.6.13
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-compiler_2.11.6;0.6.13 [plugin->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-compiler_2.11.6;0.6.13 [plugin->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-js#scalajs-compiler_2.11.6;0.6.13 [plugin->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.6 [plugin->default(compile)]
+[info] Resolving org.scala-lang#scala-compiler;2.11.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7973e4e3
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.6
+[debug] 	found org.scala-lang#scala-compiler;2.11.6 in sbt-chain
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.6 [plugin->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.6 [plugin->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.6 [plugin->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [plugin->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.11.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7df7921a
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.6
+[debug] 	found org.scala-lang#scala-library;2.11.6 in sbt-chain
+[debug] 	[2.11.6] org.scala-lang#scala-library;2.11.6
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [plugin->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [plugin->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [plugin->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.6 [plugin->default(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.11.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a832b78
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.6
+[debug] 	found org.scala-lang#scala-reflect;2.11.6 in sbt-chain
+[debug] 	[2.11.6] org.scala-lang#scala-reflect;2.11.6
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.6 [plugin->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.6 [plugin->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.6 [plugin->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.3 [plugin->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.3 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@756afb34
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.3
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.3 in sbt-chain
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.3 [plugin->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.3 [plugin->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.3 [plugin->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [plugin->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60794c4
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 in sbt-chain
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [plugin->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [plugin->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [plugin->master]
+[debug] resolving dependencies for configuration 'sources'
+[debug] == resolving dependencies for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT [sources]
+[debug] resolving dependencies for configuration 'docs'
+[debug] == resolving dependencies for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT [docs]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.6 [scala-tool->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.6 [scala-tool->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.6 [scala-tool->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.6 [scala-tool->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [scala-tool->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [scala-tool->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [scala-tool->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [scala-tool->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.6 [scala-tool->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.6 [scala-tool->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.6 [scala-tool->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.11.6 [scala-tool->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.3 [scala-tool->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.3 [scala-tool->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.3 [scala-tool->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.3 [scala-tool->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [scala-tool->default(compile)]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [scala-tool->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [scala-tool->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3 [scala-tool->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->jline#jline;2.12.1 [scala-tool->default(compile)]
+[info] Resolving jline#jline;2.12.1 ...
+[debug] sbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: jline#jline;2.12.1
+[debug] 	found jline#jline;2.12.1 in sbt-chain
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->jline#jline;2.12.1 [scala-tool->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->jline#jline;2.12.1 [scala-tool->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->jline#jline;2.12.1 [scala-tool->master]
+[debug] resolving dependencies for configuration 'phantom-js-jetty'
+[debug] == resolving dependencies for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT [phantom-js-jetty]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->default(compile)]
+[info] Resolving org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 {phantom-js-jetty=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-websocket;8.1.16.v20140903
+[debug] 	found org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 in sbt-chain
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-websocket;8.1.16.v20140903 [phantom-js-jetty->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [phantom-js-jetty->default(compile)]
+[info] Resolving org.eclipse.jetty#jetty-util;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-util;8.1.16.v20140903 {phantom-js-jetty=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-util;8.1.16.v20140903
+[debug] 	found org.eclipse.jetty#jetty-util;8.1.16.v20140903 in sbt-chain
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [phantom-js-jetty->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [phantom-js-jetty->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-util;8.1.16.v20140903 [phantom-js-jetty->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [phantom-js-jetty->default(compile)]
+[info] Resolving org.eclipse.jetty#jetty-io;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-io;8.1.16.v20140903 {phantom-js-jetty=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-io;8.1.16.v20140903
+[debug] 	found org.eclipse.jetty#jetty-io;8.1.16.v20140903 in sbt-chain
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [phantom-js-jetty->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [phantom-js-jetty->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-io;8.1.16.v20140903 [phantom-js-jetty->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [phantom-js-jetty->default(compile)]
+[info] Resolving org.eclipse.jetty#jetty-http;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-http;8.1.16.v20140903 {phantom-js-jetty=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-http;8.1.16.v20140903
+[debug] 	found org.eclipse.jetty#jetty-http;8.1.16.v20140903 in sbt-chain
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [phantom-js-jetty->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [phantom-js-jetty->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-http;8.1.16.v20140903 [phantom-js-jetty->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->default(compile)]
+[info] Resolving org.eclipse.jetty#jetty-server;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-server;8.1.16.v20140903 {phantom-js-jetty=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-server;8.1.16.v20140903
+[debug] 	found org.eclipse.jetty#jetty-server;8.1.16.v20140903 in sbt-chain
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-server;8.1.16.v20140903 [phantom-js-jetty->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [phantom-js-jetty->default(compile)]
+[info] Resolving org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 {phantom-js-jetty=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016
+[debug] 	found org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 in sbt-chain
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [phantom-js-jetty->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [phantom-js-jetty->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016 [phantom-js-jetty->master]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [phantom-js-jetty->default(compile)]
+[info] Resolving org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 ...
+[debug] sbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 {phantom-js-jetty=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-continuation;8.1.16.v20140903
+[debug] 	found org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 in sbt-chain
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [phantom-js-jetty->runtime]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [phantom-js-jetty->compile]
+[debug] == resolving dependencies webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT->org.eclipse.jetty#jetty-continuation;8.1.16.v20140903 [phantom-js-jetty->master]
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] org.scala-js#scalajs-library_2.11;0.6.13!scalajs-library_2.11.jar
+[debug] 		tried /home/tdelev/.ivy2/local/org.scala-js/scalajs-library_2.11/0.6.13/srcs/scalajs-library_2.11-sources.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-js/scalajs-library_2.11/0.6.13/scalajs-library_2.11-0.6.13-sources.jar
+[info] downloading https://jcenter.bintray.com/org/scala-js/scalajs-library_2.11/0.6.13/scalajs-library_2.11-0.6.13-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-js/scalajs-library_2.11/0.6.13/scalajs-library_2.11-0.6.13-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-js/scalajs-library_2.11/0.6.13/scalajs-library_2.11-0.6.13-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-js/scalajs-library_2.11/0.6.13/scalajs-library_2.11-0.6.13-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-js#scalajs-library_2.11;0.6.13!scalajs-library_2.11.jar(src) (580ms)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar(src)
+[debug] 		tried /home/tdelev/.ivy2/local/org.scala-js/scalajs-dom_sjs0.6_2.11/0.8.0/srcs/scalajs-dom_sjs0.6_2.11-sources.jar
+[debug] 	[NOT REQUIRED] org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0!scalajs-dom_sjs0.6_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-js/scalajs-dom_sjs0.6_2.11/0.8.0/scalajs-dom_sjs0.6_2.11-0.8.0-sources.jar
+[info] downloading https://jcenter.bintray.com/org/scala-js/scalajs-dom_sjs0.6_2.11/0.8.0/scalajs-dom_sjs0.6_2.11-0.8.0-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-js/scalajs-dom_sjs0.6_2.11/0.8.0/scalajs-dom_sjs0.6_2.11-0.8.0-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-js/scalajs-dom_sjs0.6_2.11/0.8.0/scalajs-dom_sjs0.6_2.11-0.8.0-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-js/scalajs-dom_sjs0.6_2.11/0.8.0/scalajs-dom_sjs0.6_2.11-0.8.0-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-js#scalajs-dom_sjs0.6_2.11;0.8.0!scalajs-dom_sjs0.6_2.11.jar(src) (576ms)
+[debug] 	[NOT REQUIRED] org.scala-js#scalajs-test-interface_2.11;0.6.13!scalajs-test-interface_2.11.jar
+[debug] 		tried /home/tdelev/.ivy2/local/org.scala-js/scalajs-test-interface_2.11/0.6.13/srcs/scalajs-test-interface_2.11-sources.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-js/scalajs-test-interface_2.11/0.6.13/scalajs-test-interface_2.11-0.6.13-sources.jar
+[info] downloading https://jcenter.bintray.com/org/scala-js/scalajs-test-interface_2.11/0.6.13/scalajs-test-interface_2.11-0.6.13-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-js/scalajs-test-interface_2.11/0.6.13/scalajs-test-interface_2.11-0.6.13-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-js/scalajs-test-interface_2.11/0.6.13/scalajs-test-interface_2.11-0.6.13-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-js/scalajs-test-interface_2.11/0.6.13/scalajs-test-interface_2.11-0.6.13-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-js#scalajs-test-interface_2.11;0.6.13!scalajs-test-interface_2.11.jar(src) (489ms)
+[debug] 		tried /home/tdelev/.ivy2/local/org.scala-js/scalajs-compiler_2.11.6/0.6.13/srcs/scalajs-compiler_2.11.6-sources.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-js/scalajs-compiler_2.11.6/0.6.13/scalajs-compiler_2.11.6-0.6.13-sources.jar
+[info] downloading https://jcenter.bintray.com/org/scala-js/scalajs-compiler_2.11.6/0.6.13/scalajs-compiler_2.11.6-0.6.13-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-js/scalajs-compiler_2.11.6/0.6.13/scalajs-compiler_2.11.6-0.6.13-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-js/scalajs-compiler_2.11.6/0.6.13/scalajs-compiler_2.11.6-0.6.13-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-js/scalajs-compiler_2.11.6/0.6.13/scalajs-compiler_2.11.6-0.6.13-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-js#scalajs-compiler_2.11.6;0.6.13!scalajs-compiler_2.11.6.jar(src) (2320ms)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.6!scala-compiler.jar
+[debug] 		tried /home/tdelev/.ivy2/local/org.scala-lang/scala-compiler/2.11.6/srcs/scala-compiler-sources.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.6/scala-compiler-2.11.6-sources.jar
+[info] downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.6/scala-compiler-2.11.6-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.6/scala-compiler-2.11.6-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.6/scala-compiler-2.11.6-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.6/scala-compiler-2.11.6-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.6!scala-compiler.jar(src) (7126ms)
+[debug] 		tried /home/tdelev/.ivy2/local/org.scala-lang/scala-library/2.11.6/srcs/scala-library-sources.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.6!scala-library.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6-sources.jar
+[info] downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.6!scala-library.jar(src) (5852ms)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.6!scala-reflect.jar
+[debug] 		tried /home/tdelev/.ivy2/local/org.scala-lang/scala-reflect/2.11.6/srcs/scala-reflect-sources.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.6/scala-reflect-2.11.6-sources.jar
+[info] downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.6/scala-reflect-2.11.6-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.6/scala-reflect-2.11.6-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.6/scala-reflect-2.11.6-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.6/scala-reflect-2.11.6-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.6!scala-reflect.jar(src) (2152ms)
+[debug] 		tried /home/tdelev/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.3/srcs/scala-xml_2.11-sources.jar
+[debug] 		tried /home/tdelev/.ivy2/local/org.scala-lang.modules/scala-xml_2.11/1.0.3/jars/scala-xml_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3-sources.jar
+[info] downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.3!scala-xml_2.11.jar(src) (894ms)
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3.jar
+[info] downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.3!scala-xml_2.11.jar (2370ms)
+[debug] 		tried /home/tdelev/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.3/jars/scala-parser-combinators_2.11.jar
+[debug] 		tried /home/tdelev/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.3/srcs/scala-parser-combinators_2.11-sources.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.3/scala-parser-combinators_2.11-1.0.3.jar
+[info] downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.3/scala-parser-combinators_2.11-1.0.3.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.3/scala-parser-combinators_2.11-1.0.3.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.3/scala-parser-combinators_2.11-1.0.3.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.3/scala-parser-combinators_2.11-1.0.3.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar (1641ms)
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.3/scala-parser-combinators_2.11-1.0.3-sources.jar
+[info] downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.3/scala-parser-combinators_2.11-1.0.3-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.3/scala-parser-combinators_2.11-1.0.3-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.3/scala-parser-combinators_2.11-1.0.3-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.3/scala-parser-combinators_2.11-1.0.3-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(src) (861ms)
+[debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
+[debug] 		tried /home/tdelev/.ivy2/local/org.eclipse.jetty/jetty-websocket/8.1.16.v20140903/srcs/jetty-websocket-sources.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903-sources.jar
+[info] downloading https://jcenter.bintray.com/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/eclipse/jetty/jetty-websocket/8.1.16.v20140903/jetty-websocket-8.1.16.v20140903-sources.jar
+[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-websocket;8.1.16.v20140903!jetty-websocket.jar(src) (1102ms)
+[debug] 		tried /home/tdelev/.ivy2/local/org.eclipse.jetty/jetty-util/8.1.16.v20140903/srcs/jetty-util-sources.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903-sources.jar
+[info] downloading https://jcenter.bintray.com/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/eclipse/jetty/jetty-util/8.1.16.v20140903/jetty-util-8.1.16.v20140903-sources.jar
+[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-util;8.1.16.v20140903!jetty-util.jar(src) (792ms)
+[debug] 		tried /home/tdelev/.ivy2/local/org.eclipse.jetty/jetty-io/8.1.16.v20140903/srcs/jetty-io-sources.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903-sources.jar
+[info] downloading https://jcenter.bintray.com/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/eclipse/jetty/jetty-io/8.1.16.v20140903/jetty-io-8.1.16.v20140903-sources.jar
+[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-io;8.1.16.v20140903!jetty-io.jar(src) (513ms)
+[debug] 		tried /home/tdelev/.ivy2/local/org.eclipse.jetty/jetty-http/8.1.16.v20140903/srcs/jetty-http-sources.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903-sources.jar
+[info] downloading https://jcenter.bintray.com/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/eclipse/jetty/jetty-http/8.1.16.v20140903/jetty-http-8.1.16.v20140903-sources.jar
+[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-http;8.1.16.v20140903!jetty-http.jar(src) (560ms)
+[debug] 		tried /home/tdelev/.ivy2/local/org.eclipse.jetty/jetty-server/8.1.16.v20140903/srcs/jetty-server-sources.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903-sources.jar
+[info] downloading https://jcenter.bintray.com/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/eclipse/jetty/jetty-server/8.1.16.v20140903/jetty-server-8.1.16.v20140903-sources.jar
+[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-server;8.1.16.v20140903!jetty-server.jar(src) (1391ms)
+[debug] 		tried /home/tdelev/.ivy2/local/org.eclipse.jetty.orbit/javax.servlet/3.0.0.v201112011016/srcs/javax.servlet-sources.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016-sources.jar
+[info] downloading https://jcenter.bintray.com/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016-sources.jar
+[info] 	[SUCCESSFUL ] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(src) (1251ms)
+[debug] 		tried /home/tdelev/.ivy2/local/org.eclipse.jetty/jetty-continuation/8.1.16.v20140903/srcs/jetty-continuation-sources.jar
+[debug] 		tried https://jcenter.bintray.com/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903-sources.jar
+[info] downloading https://jcenter.bintray.com/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/eclipse/jetty/jetty-continuation/8.1.16.v20140903/jetty-continuation-8.1.16.v20140903-sources.jar
+[info] 	[SUCCESSFUL ] org.eclipse.jetty#jetty-continuation;8.1.16.v20140903!jetty-continuation.jar(src) (657ms)
+[debug] :: resolution report :: resolve 82ms :: artifacts dl 31161ms
+[debug] 	report for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT compile produced in /home/tdelev/projects/coursera/progfun2/calculator/web-ui/target/resolution-cache/reports/webui-webui$sources_sjs0.6_2.11-compile.xml
+[debug] 	report for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT runtime produced in /home/tdelev/projects/coursera/progfun2/calculator/web-ui/target/resolution-cache/reports/webui-webui$sources_sjs0.6_2.11-runtime.xml
+[debug] 	report for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT test produced in /home/tdelev/projects/coursera/progfun2/calculator/web-ui/target/resolution-cache/reports/webui-webui$sources_sjs0.6_2.11-test.xml
+[debug] 	report for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT provided produced in /home/tdelev/projects/coursera/progfun2/calculator/web-ui/target/resolution-cache/reports/webui-webui$sources_sjs0.6_2.11-provided.xml
+[debug] 	report for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT optional produced in /home/tdelev/projects/coursera/progfun2/calculator/web-ui/target/resolution-cache/reports/webui-webui$sources_sjs0.6_2.11-optional.xml
+[debug] 	report for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT compile-internal produced in /home/tdelev/projects/coursera/progfun2/calculator/web-ui/target/resolution-cache/reports/webui-webui$sources_sjs0.6_2.11-compile-internal.xml
+[debug] 	report for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT runtime-internal produced in /home/tdelev/projects/coursera/progfun2/calculator/web-ui/target/resolution-cache/reports/webui-webui$sources_sjs0.6_2.11-runtime-internal.xml
+[debug] 	report for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT test-internal produced in /home/tdelev/projects/coursera/progfun2/calculator/web-ui/target/resolution-cache/reports/webui-webui$sources_sjs0.6_2.11-test-internal.xml
+[debug] 	report for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT plugin produced in /home/tdelev/projects/coursera/progfun2/calculator/web-ui/target/resolution-cache/reports/webui-webui$sources_sjs0.6_2.11-plugin.xml
+[debug] 	report for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT sources produced in /home/tdelev/projects/coursera/progfun2/calculator/web-ui/target/resolution-cache/reports/webui-webui$sources_sjs0.6_2.11-sources.xml
+[debug] 	report for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT docs produced in /home/tdelev/projects/coursera/progfun2/calculator/web-ui/target/resolution-cache/reports/webui-webui$sources_sjs0.6_2.11-docs.xml
+[debug] 	report for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT pom produced in /home/tdelev/projects/coursera/progfun2/calculator/web-ui/target/resolution-cache/reports/webui-webui$sources_sjs0.6_2.11-pom.xml
+[debug] 	report for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT scala-tool produced in /home/tdelev/projects/coursera/progfun2/calculator/web-ui/target/resolution-cache/reports/webui-webui$sources_sjs0.6_2.11-scala-tool.xml
+[debug] 	report for webui#webui$sources_sjs0.6_2.11;0.1-SNAPSHOT phantom-js-jetty produced in /home/tdelev/projects/coursera/progfun2/calculator/web-ui/target/resolution-cache/reports/webui-webui$sources_sjs0.6_2.11-phantom-js-jetty.xml
+[debug] 	resolve done (82ms resolve - 31161ms download)
